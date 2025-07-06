@@ -1,0 +1,74 @@
+/* Center everything on screen */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #a5ecef;
+  padding: 20px;
+}
+
+/* Form box */
+.auth-box {
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading styling */
+.auth-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: -10px; /* Move it a little upward */
+}
+
+/* Button base styling */
+.auth-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Login button */
+.auth-button.login {
+  background-color: #2563eb;
+  color: white;
+}
+
+.auth-button.login:hover {
+  background-color: #1d4ed8;
+}
+
+/* Register button */
+.auth-button.register {
+  background-color: #2531aa;
+  color: rgb(249, 246, 246);
+}
+
+.auth-button.register:hover {
+  background-color: #cbd5e1;
+}
+.auth-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1e3a8a; /* Dark blue */
+}

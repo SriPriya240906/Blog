@@ -1,0 +1,203 @@
+.home-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  background-color: #a8136a;
+  min-height: 100vh;
+  border: radius 20px;
+  box-shadow:0 8px 20px rgba(0, 0, 0, 0.06)
+}
+
+.home-header h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #f6f4f4;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+.home-header p {
+  text-align: center;
+  font-size: 30px;
+  color: #f6f7f8;
+  margin-bottom: 30px;
+}
+
+.home-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.logout-button,
+.login-button,
+.register-button {
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  color: rgb(245, 244, 244);
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #060606;
+  position:relative;
+}
+.login-button {
+  background-color: hsl(184, 53%, 64%);
+}
+.register-button {
+  background-color: #16a34a;
+}
+
+.logout-button:hover {
+  background-color: #0e0e0e;
+}
+.login-button:hover {
+  background-color: #1d4ed8;
+}
+.register-button:hover {
+  background-color: #15803d;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.blog-header h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-style:italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f6f4f4;
+}
+
+.create-button {
+  background-color: #22c55e;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #15803d;
+}
+
+.no-blogs {
+  text-align: center;
+  font-size: 18px;
+  color: #6b7280;
+  margin-top: 50px;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.blog-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-card {
+  background-color: #f6c5da;
+  padding: 20px 24px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+  border-left: 6px solid #f0f415;
+}
+
+.blog-card:hover {
+  transform: translateY(-2px);
+  background-color: #f1f5f9;
+}
+
+.blog-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 8px;
+}
+
+.blog-snippet {
+  font-size: 16px;
+  color: #374151;
+  line-height: 1.5;
+}
+.blog-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e40af;
+  margin-bottom: 6px;
+}
+
+.blog-snippet {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.blog-author,
+.blog-date {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 4px;
+}
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+  
+}
+
+.right-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px; /* spacing between Logout and Create */
+}
+
+.logout-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #b91c1c;
+}
+
+.create-button {
+  background-color: #22c55e;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.create-button:hover {
+  background-color: #16a34a;
+}

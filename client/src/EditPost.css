@@ -1,0 +1,80 @@
+.edit-post-container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #eeb5e3;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.edit-post-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.edit-field-group {
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.edit-field-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.edit-input,
+.edit-textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.edit-textarea {
+  height: 160px;
+  resize: none;
+}
+
+.edit-button {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  color: white;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: none;
+}
+
+.update-btn {
+  background-color: #2563eb;
+}
+
+.update-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.back-btn {
+  background-color: #6b7280;
+}
+
+.back-btn:hover {
+  background-color: #4b5563;
+}
+
+.loading-message {
+  text-align: center;
+  padding: 2rem;
+  color: #6b7280;
+}

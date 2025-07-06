@@ -1,0 +1,136 @@
+/* Overall outer container */
+.post-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+/* Outer rounded box */
+.outer-box {
+  background-color: #da77ea;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inner box for blog content */
+.inner-box {
+  background-color: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+/* Header controls (Go back + Edit/Delete) */
+.post-header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+.button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.edit-button {
+  background-color: #f59e0b;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.delete-button {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* Title & Metadata */
+.post-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.post-meta {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+/* Post content */
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #111827;
+  white-space: pre-wrap;
+}
+
+/* Like button */
+.like-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 1.5rem 0 1rem;
+}
+
+.like-button:hover {
+  background-color: #2563eb;
+}
+
+/* Comment Section */
+.comment-section {
+  margin-top: 2rem;
+}
+
+.comment-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.comment-box {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  resize: none;
+  font-size: 1rem;
+}
+
+.submit-comment {
+  background-color: #10b981;
+  color: white;
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-comment:hover {
+  background-color: #059669;
+}
+
+.comment-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0.5rem 0;
+}
+
+.comment-user {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
